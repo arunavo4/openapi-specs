@@ -22,6 +22,7 @@ paths:
       - Historical Weather API
       summary: 60 years of accurate weather, anywhere with up to 5 km resolution
       description: 'The Historical Weather API is based on reanalysis datasets and uses a combination of weather station, aircraft, buoy, radar, and satellite observations to create a comprehensive record of past weather conditions.'
+      operationId: getHistoricalWeatherData
       parameters:
       - name: start_date
         in: query
